@@ -1,0 +1,27 @@
+from enum import Enum
+
+
+class Holiday(Enum):
+    NoHoliday = ""
+    Normal = "Holiday"
+    MyanmarNewYearDay = "Myanmar New Year Day"
+    ThingyanAtatDay = "Thingyan Atat Day"
+    ThingyanAkyaDay = "Thingyan Akya Day"
+    ThingyanAkyatDay = "Thingyan Akyat Day"
+    ThingyanAkyoDay = "Thingyan Akyo Day"
+    ThingyanHoliday = "Thingyan Holiday"
+    NewYearDay = "New Year Day"
+    IndependenceDay = "Independence Day"
+    UnionDay = "Union Day"
+    PeasantsDay = "Peasants' Day"
+    ResistanceDay = "Resistance Day"
+    LabourDay = "Labour Day"
+    MartyrsDay = "Martyrs' Day"
+    ChristmasDay = "Christmas Day"
+    BuddhaDay = "Buddha Day"
+    StartOfBuddhistLent = "Start of Buddhist Lent"
+    EndOfBuddhistLent = "End of Buddhist Lent"
+    Tazaungdaing = "Tazaungdaing"
+    NationalDay = "National Day"
+    KarenNewYearDay = "Karen New Year Day"
+    TabaungPwe = "Tabaung Pwe"
